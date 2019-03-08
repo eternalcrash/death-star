@@ -1,3 +1,14 @@
+# Death-star
+*A defense and resources system using microservices for the Empire*
+This project uses docker containers and docker compose to provide some services (documented with swagger)
+There are defined the following services (see docker-compose.yml)
+* A python flask rest api (using flask-restplus) to manage Empire's materials (Plasma and Titanium)
+* A java jersey rest api (using jedis (😊) to implement a job queue using redis)
+* A redis container
+* A redis-browser container
+
+
+
 # Requirements
 
 * git
